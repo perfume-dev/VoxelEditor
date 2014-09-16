@@ -1,0 +1,9 @@
+[submodule "addons/ControlOF"]
+	path = addons/ControlOF
+	url = git@github.com:satoruhiga/ControlOF.git
+[submodule "addons/ofxJsonxx"]
+	path = addons/ofxJsonxx
+	url = git@github.com:satoruhiga/ofxJsonxx.git
+[submodule "addons/ofxModifierKeys"]
+	path = addons/ofxModifierKeys
+	url = git@github.com:satoruhiga/ofxModifierKeys.git
