@@ -834,6 +834,9 @@ private: // UI
 			o = c.addButton("load json");
 			ofAddListener(o->pressed, this, &Editor::onLoadPressed);
 			
+            o = c.addButton("load *.obj");
+            ofAddListener(o->pressed, this, &Editor::onLoadObjPressed);
+            
 			c.addSeparator();
 			
 			o = c.addButton("clear");
@@ -1015,6 +1018,27 @@ private: // UI
 			}
 		}
 	}
+    
+    void onLoadObjPressed(ofEventArgs&)
+    {
+        ofFileDialogResult result = ofSystemLoadDialog();
+        if (result.bSuccess)
+        {
+            string ext = ofFilePath::getFileExt(result.getName());
+            bool loaded = false;
+            
+            if (ext == "obj")
+            {
+                loaded = voxels.loadObj(result.getPath());
+            }
+            
+            if (!loaded)
+            {
+                ofSystemAlertDialog("Invalid file format");
+            }
+        }
+
+    }
 	
 	void onClear(ofEventArgs&)
 	{
