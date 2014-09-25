@@ -7,13 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85AC218319CC960300D7955B /* libassimp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AC216519CC960300D7955B /* libassimp.a */; };
-		85AC218419CC960300D7955B /* libassimp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AC216719CC960300D7955B /* libassimp.a */; };
-		85AC218519CC960300D7955B /* assimp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AC216B19CC960300D7955B /* assimp.a */; };
-		85AC218619CC960300D7955B /* libassimp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AC216D19CC960300D7955B /* libassimp.a */; };
-		85AC218719CC960300D7955B /* libassimp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AC216F19CC960300D7955B /* libassimp.a */; };
 		85AC218819CC960300D7955B /* assimp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AC217119CC960300D7955B /* assimp.a */; };
-		85AC218919CC960300D7955B /* assimp.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AC217319CC960300D7955B /* assimp.lib */; };
 		85AC218A19CC960300D7955B /* ofxAssimpAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85AC217A19CC960300D7955B /* ofxAssimpAnimation.cpp */; };
 		85AC218B19CC960300D7955B /* ofxAssimpMeshHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85AC217C19CC960300D7955B /* ofxAssimpMeshHelper.cpp */; };
 		85AC218C19CC960300D7955B /* ofxAssimpModelLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85AC217E19CC960300D7955B /* ofxAssimpModelLoader.cpp */; };
@@ -77,7 +71,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		85AC213919CC960300D7955B /* addon_config.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = addon_config.mk; sourceTree = "<group>"; };
 		85AC213D19CC960300D7955B /* aiAnim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aiAnim.h; sourceTree = "<group>"; };
 		85AC213E19CC960300D7955B /* aiAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aiAssert.h; sourceTree = "<group>"; };
 		85AC213F19CC960300D7955B /* aiCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aiCamera.h; sourceTree = "<group>"; };
@@ -114,15 +107,7 @@
 		85AC215F19CC960300D7955B /* LogStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogStream.h; sourceTree = "<group>"; };
 		85AC216019CC960300D7955B /* NullLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NullLogger.h; sourceTree = "<group>"; };
 		85AC216119CC960300D7955B /* ProgressHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHandler.h; sourceTree = "<group>"; };
-		85AC216519CC960300D7955B /* libassimp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libassimp.a; sourceTree = "<group>"; };
-		85AC216719CC960300D7955B /* libassimp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libassimp.a; sourceTree = "<group>"; };
-		85AC216919CC960300D7955B /* libassimp.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = libassimp.so; sourceTree = "<group>"; };
-		85AC216B19CC960300D7955B /* assimp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = assimp.a; sourceTree = "<group>"; };
-		85AC216D19CC960300D7955B /* libassimp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libassimp.a; sourceTree = "<group>"; };
-		85AC216F19CC960300D7955B /* libassimp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libassimp.a; sourceTree = "<group>"; };
 		85AC217119CC960300D7955B /* assimp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = assimp.a; sourceTree = "<group>"; };
-		85AC217319CC960300D7955B /* assimp.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = assimp.lib; sourceTree = "<group>"; };
-		85AC217519CC960300D7955B /* libassimp.dll */ = {isa = PBXFileReference; lastKnownFileType = file; path = libassimp.dll; sourceTree = "<group>"; };
 		85AC217819CC960300D7955B /* assimp.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = assimp.sh; sourceTree = "<group>"; };
 		85AC217A19CC960300D7955B /* ofxAssimpAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAssimpAnimation.cpp; sourceTree = "<group>"; };
 		85AC217B19CC960300D7955B /* ofxAssimpAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxAssimpAnimation.h; sourceTree = "<group>"; };
@@ -190,8 +175,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85AC218619CC960300D7955B /* libassimp.a in Frameworks */,
-				85AC218319CC960300D7955B /* libassimp.a in Frameworks */,
 				E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */,
 				E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */,
 				E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */,
@@ -202,17 +185,13 @@
 				E45BE97E0E8CC7DD009D7055 /* Carbon.framework in Frameworks */,
 				E45BE97F0E8CC7DD009D7055 /* CoreAudio.framework in Frameworks */,
 				E45BE9800E8CC7DD009D7055 /* CoreFoundation.framework in Frameworks */,
-				85AC218919CC960300D7955B /* assimp.lib in Frameworks */,
 				E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */,
 				E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */,
-				85AC218419CC960300D7955B /* libassimp.a in Frameworks */,
 				E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */,
 				85AC218819CC960300D7955B /* assimp.a in Frameworks */,
 				E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */,
-				85AC218519CC960300D7955B /* assimp.a in Frameworks */,
 				E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */,
 				E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */,
-				85AC218719CC960300D7955B /* libassimp.a in Frameworks */,
 				E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,7 +202,6 @@
 		85AC213819CC960300D7955B /* ofxAssimpModelLoader */ = {
 			isa = PBXGroup;
 			children = (
-				85AC213919CC960300D7955B /* addon_config.mk */,
 				85AC213A19CC960300D7955B /* libs */,
 				85AC217619CC960300D7955B /* scripts */,
 				85AC217919CC960300D7955B /* src */,
@@ -303,73 +281,9 @@
 		85AC216219CC960300D7955B /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				85AC216319CC960300D7955B /* android */,
-				85AC216819CC960300D7955B /* emscripten */,
-				85AC216A19CC960300D7955B /* ios */,
-				85AC216C19CC960300D7955B /* linux */,
-				85AC216E19CC960300D7955B /* linux64 */,
 				85AC217019CC960300D7955B /* osx */,
-				85AC217219CC960300D7955B /* vs */,
-				85AC217419CC960300D7955B /* win_cb */,
 			);
 			path = lib;
-			sourceTree = "<group>";
-		};
-		85AC216319CC960300D7955B /* android */ = {
-			isa = PBXGroup;
-			children = (
-				85AC216419CC960300D7955B /* armeabi */,
-				85AC216619CC960300D7955B /* armeabi-v7a */,
-			);
-			path = android;
-			sourceTree = "<group>";
-		};
-		85AC216419CC960300D7955B /* armeabi */ = {
-			isa = PBXGroup;
-			children = (
-				85AC216519CC960300D7955B /* libassimp.a */,
-			);
-			path = armeabi;
-			sourceTree = "<group>";
-		};
-		85AC216619CC960300D7955B /* armeabi-v7a */ = {
-			isa = PBXGroup;
-			children = (
-				85AC216719CC960300D7955B /* libassimp.a */,
-			);
-			path = "armeabi-v7a";
-			sourceTree = "<group>";
-		};
-		85AC216819CC960300D7955B /* emscripten */ = {
-			isa = PBXGroup;
-			children = (
-				85AC216919CC960300D7955B /* libassimp.so */,
-			);
-			path = emscripten;
-			sourceTree = "<group>";
-		};
-		85AC216A19CC960300D7955B /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				85AC216B19CC960300D7955B /* assimp.a */,
-			);
-			path = ios;
-			sourceTree = "<group>";
-		};
-		85AC216C19CC960300D7955B /* linux */ = {
-			isa = PBXGroup;
-			children = (
-				85AC216D19CC960300D7955B /* libassimp.a */,
-			);
-			path = linux;
-			sourceTree = "<group>";
-		};
-		85AC216E19CC960300D7955B /* linux64 */ = {
-			isa = PBXGroup;
-			children = (
-				85AC216F19CC960300D7955B /* libassimp.a */,
-			);
-			path = linux64;
 			sourceTree = "<group>";
 		};
 		85AC217019CC960300D7955B /* osx */ = {
@@ -378,22 +292,6 @@
 				85AC217119CC960300D7955B /* assimp.a */,
 			);
 			path = osx;
-			sourceTree = "<group>";
-		};
-		85AC217219CC960300D7955B /* vs */ = {
-			isa = PBXGroup;
-			children = (
-				85AC217319CC960300D7955B /* assimp.lib */,
-			);
-			path = vs;
-			sourceTree = "<group>";
-		};
-		85AC217419CC960300D7955B /* win_cb */ = {
-			isa = PBXGroup;
-			children = (
-				85AC217519CC960300D7955B /* libassimp.dll */,
-			);
-			path = win_cb;
 			sourceTree = "<group>";
 		};
 		85AC217619CC960300D7955B /* scripts */ = {
